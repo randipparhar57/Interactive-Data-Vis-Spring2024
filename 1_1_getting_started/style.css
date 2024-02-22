@@ -1,20 +1,27 @@
 body {
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 16px;
-  padding: 1em;
+  font-family: "Courier Prime", 'Times New Roman', Times, serif;
+  background-color: #fbf5e9;
+  font-size: 20px;
+  padding: 1em; /*em - Relative to the font-size of the element (2em means 2 times the size of the current font)*/
 }
 
 h1 {
   font-size: 3em;
+  color: #bac506;
   margin: 0.25em 0;
 }
 
-h3 {
+h2 {
   font-size: 2em;
+  color: #fa8072;
   margin: 0.25em 0;
 }
 
 p {
   font-size: 1em;
-  color: pink;
+  color: #118098;
+}
+
+.me {
+  font-family: "Cedarville Cursive", 'Times New Roman', Times, serif;
 }

@@ -1,19 +1,230 @@
-
 <!DOCTYPE html>
+
 <head>
   <meta charset="utf-8">
   <title>Interactive Data Visualization Tutorial</title>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
-  <h1>Hello World!</h1>
-  <h3>Section 1 | Tutorial 2 | Basic HTML</h3>
-  <table>
-    <!-- Add your table data here -->
-  </table>
-  <svg>
-    <!-- Add your rectangles in here -->
-  </svg>
+
+  <div class="container">
+    <div class="header">
+      <h1>
+        <center>New York City Parks</center>
+      </h1>
+      <h3>
+        <center>Parks I Want to Visit <em>(And Revisit)</em></center>
+      </h3>
+    </div>
+
+
+    <div class="table">
+      <table>
+        <!--column headers-->
+        <tr>
+          <th>Park Name</th>
+          <th>County</th>
+          <th>Neighborhood</th>
+          <th>Coordinates</th>
+          <th>Size (acres)</th>
+          <th>BQG?</th>
+          <th>Image</th>
+        </tr>
+        <!--data-->
+        <tr>
+          <td>Shirley Chisholm State Park</td>
+          <td>Brooklyn</td>
+          <td>Spring Creek</td>
+          <td>40.643082, -73.875685</td>
+          <td>407</td>
+          <td>No</td>
+          <td>
+            <center><img alt="shirley chisholm state park" src="./shirley_chisholm.jpeg" height="100px"></center>
+          </td>
+        </tr>
+        <tr>
+          <td>Highland Park</td>
+          <td>Brooklyn</td>
+          <td>Cypress Hills</td>
+          <td>40.683438, -73.888428</td>
+          <td>141.28</td>
+          <td class="BQG">Yes</td>
+          <td>
+            <center><img alt="highland park" src="./highland_ridgewood_reservoir.jpeg" height="100px"></center>
+          </td>
+        </tr>
+        <tr>
+          <td>Owl's Head Park</td>
+          <td>Brooklyn</td>
+          <td>Bay Ridge</td>
+          <td>40.6406, -74.0322</td>
+          <td>24.22</td>
+          <td>No</td>
+          <td>
+            <center><img alt="owl's head park" src="./owls_head_park.jpeg" height="100px"></center>
+          </td>
+        </tr>
+        <tr>
+          <td>Red Hook Park</td>
+          <td>Brooklyn</td>
+          <td>Red Hook</td>
+          <td>40.672778, -74.003889</td>
+          <td>58.5</td>
+          <td>No</td>
+          <td>
+            <center><img alt="red hook park" src="./red_hook.jpeg" height="100px"></center>
+          </td>
+        </tr>
+        <tr>
+          <td>Carl Schurz Park</td>
+          <td>Manhattan</td>
+          <td>Yorkville</td>
+          <td>40.775278, -73.943611</td>
+          <td>14.9</td>
+          <td>No</td>
+          <td>
+            <center><img alt="carl schurz park" src="./carl_schurz.jpeg" height="100px"></center>
+          </td>
+        </tr>
+        <tr>
+          <td>Fort Totten Park</td>
+          <td>Queens</td>
+          <td>Bay Terrace</td>
+          <td>40.792028, -73.776083</td>
+          <td>59.5</td>
+          <td class="BQG">Yes</td>
+          <td>
+            <center><img alt="fort totten park" src="./fort_totten.jpeg" height="100px"></center>
+          </td>
+        </tr>
+        <tr>
+          <td>Alley Pond Park</td>
+          <td>Queens</td>
+          <td>Douglaston, Bayside</td>
+          <td>40.758333, -73.747222</td>
+          <td>655.294</td>
+          <td class="BQG">Yes</td>
+          <td>
+            <center><img alt="alley pond park" src="./alley_pond.jpeg" height="100px"></center>
+          </td>
+        </tr>
+        <tr>
+          <td>Cunningham Park</td>
+          <td>Queens</td>
+          <td>Fresh Meadows</td>
+          <td>40.733333, -73.766667</td>
+          <td>358</td>
+          <td class="BQG">Yes</td>
+          <td>
+            <center><img alt="cunningham park" src="./cunningham_park.jpeg" height="100px"></center>
+          </td>
+        </tr>
+        <tr>
+          <td>Kissena Park</td>
+          <td>Queens</td>
+          <td>Flushing</td>
+          <td>40.745, -73.804722</td>
+          <td>234.762</td>
+          <td class="BQG">Yes</td>
+          <td>
+            <center><img alt="kissena park" src="./kissena_park.jpeg" height="100px"></center>
+          </td>
+        </tr>
+        <tr>
+          <td>Flushing Meadows-Corona Park</td>
+          <td>Queens</td>
+          <td>Flushing</td>
+          <td>40.745833, -73.844722</td>
+          <td>897</td>
+          <td class="BQG">Yes</td>
+          <td>
+            <center><img alt="flushing-meadows corona park" src="./flushing_meadows.jpeg" height="100px"></center>
+          </td>
+        </tr>
+        <tr>
+          <td>Forest Park</td>
+          <td>Queens</td>
+          <td>Heart of Queens</td>
+          <td>40.70415, -73.8458</td>
+          <td>538</td>
+          <td class="BQG">Yes</td>
+          <td>
+            <center><img alt="forest park" src="./forest_park.jpeg" height="100px"></center>
+          </td>
+        </tr>
+        <tr>
+          <td>Prospect Park</td>
+          <td>Brooklyn</td>
+          <td>Park Slope, Prospect Heights, Prospect Lefferts Garden, Flatbush, Windsor Terrace</td>
+          <td>40.661667, -73.970833</td>
+          <td>526</td>
+          <td class="BQG">Yes</td>
+          <td>
+            <center><img alt="prospect park" src="./prospect_park.jpeg" height="100px"></center>
+          </td>
+        </tr>
+        <tr>
+          <td>Marine Park</td>
+          <td>Brooklyn</td>
+          <td>Marine Park</td>
+          <td>40.598047, -73.920836</td>
+          <td>798</td>
+          <td>No</td>
+          <td>
+            <center><img alt="marine park" src="./marine_park.jpeg" height="100px"></center>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+
+    <div class="svg">
+      <!--source for this code (modified original, but source of inspiration): https://www.freecodecamp.org/news/svg-tutorial-learn-to-code-images/-->
+      <center>
+        <svg width="600" height="600" viewBox="-100 -100 600 600">
+          <defs>
+            <g id="tree">
+              <polygon points="-10,0 10,0 0 -50" fill="#4d8c57" />
+              <line x1="0" y1="0" x2="0" y2="10" stroke="#967117" stroke-width="2" />
+            </g>
+          </defs>
+          <rect x="-100" y="-100" width="600" height="600" fill="#e6e6fa" />
+          <circle cx="200" cy="800" r="600" fill="#acbf60" />
+          <use href="#tree" x="10" y="115" transform="scale(4)" />
+          <use href="#tree" x="175" y="140" transform="scale(2.5)" />
+          <use href="#tree" x="100" y="250" transform="scale(1)" />
+          <use href="#tree" x="125" y="260" transform="scale(1)" />
+          <use href="#tree" x="140" y="245" transform="scale(1)" />
+          <use href="#tree" x="140" y="245" transform="scale(1)" />
+          <use href="#tree" x="200" y="245" transform="scale(1)" />
+          <use href="#tree" x="225" y="255" transform="scale(1)" />
+          <use href="#tree" x="240" y="240" transform="scale(1)" />
+
+          <!--source for this code: https://stackoverflow.com/questions/16664244/draw-a-crescent-moon-using-svg-in-html-->
+          <path d="M 50 0 A 40 40 0 1 0 50 50 30 30 0 1 1 50 0 z" stroke="#ffdb58" stroke-width="2" fill="#ffe4b5" />
+        </svg>
+      </center>
+      <center>
+        <p>
+          <caption>
+            <a href="https://stackoverflow.com/questions/16664244/draw-a-crescent-moon-using-svg-in-html">Source of
+              moon code</a>
+          </caption>
+        </p>
+        <p>
+          <caption>
+            <a href="https://www.freecodecamp.org/news/svg-tutorial-learn-to-code-images/">Inspiration for rectangle
+              svg + illustration in it</a>
+          </caption>
+        </p>
+      </center>
+    </div>
+
 </body>
+
 </html>

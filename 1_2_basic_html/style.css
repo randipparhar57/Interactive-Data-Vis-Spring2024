@@ -1,6 +1,6 @@
 
 body {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Courier Prime", 'Times New Roman', Times, serif;
   font-size: 16px;
   padding: 1em;
 }
@@ -17,4 +17,39 @@ h3 {
 
 p {
   font-size: 1em;
+}
+
+table {
+  border: 6px solid #00703c;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 3px solid #00703c;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #96c8a2;
+  color: white;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #fffaf0;
+}
+
+.BQG {
+  background-color: #fdee00;
+  color: black;
+}
+
+.container {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.header, .table, .svg {
+  padding-top: 25px;
+  padding-bottom: 25px;
 }

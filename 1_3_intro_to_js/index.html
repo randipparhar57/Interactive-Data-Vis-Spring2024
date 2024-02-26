@@ -1,15 +1,45 @@
-
 <!DOCTYPE html>
+
 <head>
   <meta charset="utf-8">
   <title>Interactive Data Visualization Tutorial</title>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
-  <h1>Hello World!</h1>
-  <h3>Section 1 | Tutorial 3 | Intro to JS</h3>
-  <!-- add any HTML you might need here, like a button or a div -->
+  <div id="header">
+    <h1><center>Click and Count</center></h1>
+    <h3><center>A Helpful Took For Awkward Situations</center></h3>
+  </div>
+
+  <div id="intro">
+    <p>Have you ever found yourself in a social situation where you feel out of place and awkward? Don't know what to do
+      with your hands or where to look? Here is where <em>Click and Count</em> comes to the rescue! Occupy yourself on
+      the phone with this tool when you find yourself unbearably awkward. Less frustrating than the Google Dinosaur Jump
+      game, and more exciting than the calculator app. You can thank me later.</p>
+  </div>
+
+<div class="container">
+  <div id="button">
+    <button id="buttonCounter" type="button" onclick="countDecrease()">Click to decrease</button>
+  </div>
+  <div id="button">
+    <button id="buttonCounter" type="button" onclick="countReset()">Click to reset</button>
+  </div>
+  <div id="button">
+    <button id="buttonCounter" type="button" onclick="countIncrease()">Click to increase</button>
+  </div>
+  <div id="countDisplay">
+    <p id="display">0</p>
+  </div>
+</div>
+
   <script src="main.js"></script>
 </body>
+
 </html>

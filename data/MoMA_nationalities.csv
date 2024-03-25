@@ -1,120 +1,120 @@
 Nationality,Country,Count
-American,United States of America,5181
-German,Germany,965
-British,Britain,860
-French,French,847
-Italian,Italy,536
-Japanese,Japan,507
-Swiss,Switzerland,297
-Dutch,The Netherlands,274
-Russian,Russia,262
-Austrian,Austria,239
-Canadian,Canada,189
-Brazilian,Brazil ,167
-Unknown,Unknown,161
-Spanish,Spain,157
+Afghan,Afghanistan,1
+Albanian,Albania,3
+Algerian,Algeria,3
 Argentine,Argentina,142
-Mexican,Mexico,135
-Polish,Poland,131
-Swedish,Sweden,128
-Danish,Denmark,121
-Chinese,China,101
-Belgian,Belgian,96
-Czech,Czech Republic,78
-Israeli,Israel,75
-Chilean,Chile,70
-South African,South Africa,67
-Cuban,Cuba,64
-Venezuelan,Venezuela,62
-Finnish,Finland,62
 Australian,Australia,55
-Colombian,Columbia,54
-Hungarian,Hungary,53
-Norwegian,Norway,49
-Indian,India,39
-Peruvian,Peru,39
-Croatian,Croatia,34
-Korean,Korea,31
-Irish,Ireland,24
-Uruguayan,Uruguay,23
-Turkish,Turkey,20
-Scottish,Scotland,20
-Romanian,Romania,19
-Haitian,Haiti,17
-Slovenian,Slovenia,17
-Serbian,Serbia,16
-New Zealander,New Zealand,16
-Ukrainian,Ukraine,13
-Icelandic,Iceland,12
-Egyptian,Egypt,11
-Iranian,Iran,11
-Greek,Greece,11
-Portuguese,Portugal,10
-Native American,United States of America,10
-Lebanese,Lebanon,9
-Slovak,Slovakia,8
-Puerto Rican,Puerto Rico,7
-Guatemalan,Guatemala,7
-Bosnian,Bosnia,6
-Moroccan,Morocco,6
-Georgian,Georgia,6
-Congolese,Congo,6
-Nigerian,Nigeria,6
-Vietnamese,Vietnam,5
-Taiwanese,Taiwan,5
+Austrian,Austria,239
+Azerbaijani,Azerbaijan,2
+Bangladeshi,Bangladesh,1
+Belgian,Belgium,96
+Beninese,Benin,1
+Bolivian,Bolivia,3
+Bosnian,Bosnia and Herzegovina,6
+Brazilian,Brazil,167
+British,United Kingdom,860
 Bulgarian,Bulgaria,5
-Zimbabwean,Zimbabwe,5
+Burkinabé,Burkina Faso,1
+Cambodian,Cambodia,1
+Cameroonian,Cameroon,2
+Canadian,Canada,189
+Canadian Inuit,Canada,3
+Chilean,Chile,70
+Chinese,China,101
+Colombian,Colombia,54
+Costa Rican,Costa Rica,2
+Croatian,Croatia,34
+Cuban,Cuba,64
+Cypriot,Cyprus No Mans Area,1
+Czech,Czech Republic,78
 Czechoslovakian,Czech Republic,5
-Macedonian,Macedonia,4
+Danish,Denmark,121
 Ecuadorian,Ecuador,4
+Egyptian,Egypt,11
+Estonian,Estonia,3
+Ethiopian,Ethiopia,2
+Finnish,Finland,62
+French,France,847
+Georgian,Georgia,6
+German,Germany,965
+Ghanaian,Ghana,3
+Greek,Greece,11
+Guatemalan,Guatemala,7
+Haitian,Haiti,17
+Hungarian,Hungary,53
+Icelandic,Iceland,12
+Indian,India,39
+Iranian,Iran,11
+Iraqi,Iraq,2
+Irish,Ireland,24
+Israeli,Israel,75
+Italian,Italy,536
+Malian,Italy,3
+Ivorian,Ivory Coast,1
+Japanese,Japan,507
+Kenyan,Kenya,1
+Korean,Korea,31
+Kuwaiti,Kuwait,1
+Kyrgyz,Kyrgyzstan,2
+Latvian,Latvia,3
+Lebanese,Lebanon,9
+Lithuanian,Lithuania,3
+Luxembourger,Luxembourg,3
+Macedonian,Macedonia,4
+Malaysian,Malaysia,2
+Mexican,Mexico,135
+Moroccan,Morocco,6
+Mozambican,Mozambique,1
+Namibian,Namibia,2
+Dutch,Netherlands,274
+New Zealander,New Zealand,16
+Nicaraguan,Nicaragua,2
+Nigerian,Nigeria,6
+Norwegian,Norway,49
 Pakistani,Pakistan,4
 Palestinian,Palestine,4
-Bolivian,Bolivia,3
-Estonian,Estonia,3
-Algerian,Algeria,3
-Lithuanian,Lithuania,3
-Albanian,Albania,3
-Luxembourger,Luxembourg,3
-Filipino,Philippines,3
-Welsh,United Kingdom,3
-Latvian,Latvia,3
-Canadian Inuit,Canadian,3
-Malian,Italian,3
-Ghanaian,Ghana,3
-Ethiopian,Ethiopia,2
-Nicaraguan,Nicaragua,2
-Namibian,Namibia,2
-Iraqi,Iraq,2
-Tunisian,Tunisia,2
-Senegalese,Senegal,2
-Sudanese,Sudan,2
-Emirati,United Arab Emirates,2
-Kyrgyz,Kyrgyzstan,2
-Singaporean,Singapore,2
-Thai,Thailand,2
-Costa Rican,Costa Rica,2
-Cameroonian,Cameroon,2
-Azerbaijani,Azerbaijan,2
-Salvadoran,Salvador,2
-Malaysian,Malaysia,2
 Panamanian,Panama,2
 Paraguayan,Paraguay,2
-Ivorian,Ivory Coast,1
-Ugandan,Uganda,1
-Cambodian,Cambodia,1
-Cypriot,Cyprus No Mans Area,1
-Sierra Leonean,Sierra Leone,1
-Coptic,Sudan,1
-Yugoslav,Yugoslavia,1
-Mozambican,Mozambique,1
 Persian,Persia,1
-Bahamian,The Bahamas,1
-Bangladeshi,Bangladesh,1
-Sahrawi,United Arab Emirates,1
-Burkinabé,Burkina Faso,1
+Peruvian,Peru,39
+Filipino,Philippines,3
+Polish,Poland,131
+Portuguese,Portugal,10
+Puerto Rican,Puerto Rico,7
+Serbian,Republic of Serbia,16
+Congolese,Republic of the Congo,6
+Romanian,Romania,19
+Russian,Russia,262
+Salvadoran,Salvador,2
+Scottish,Scotland,20
+Senegalese,Senegal,2
+Sierra Leonean,Sierra Leone,1
+Singaporean,Singapore,2
+Slovak,Slovakia,8
+Slovenian,Slovenia,17
+South African,South Africa,67
+Spanish,Spain,157
 Catalan,Spain,1
-Afghan,Afghanistan,1
+Sudanese,Sudan,2
+Coptic,Sudan,1
+Swedish,Sweden,128
+Swiss,Switzerland,297
+Taiwanese,Taiwan,5
 Tanzanian,Tanzania,1
-Kenyan,Kenya,1
-Beninese,Benin,1
-Kuwaiti,Kuwait,1
+Thai,Thailand,2
+Bahamian,The Bahamas,1
+Tunisian,Tunisia,2
+Turkish,Turkey,20
+Ugandan,Uganda,1
+Ukrainian,Ukraine,13
+Emirati,United Arab Emirates,2
+Sahrawi,United Arab Emirates,1
+Welsh,United Kingdom,3
+American,United States of America,5181
+Native American,United States of America,10
+Unknown,Unknown,161
+Uruguayan,Uruguay,23
+Venezuelan,Venezuela,62
+Vietnamese,Vietnam,5
+Yugoslav,Yugoslavia,1
+Zimbabwean,Zimbabwe,5

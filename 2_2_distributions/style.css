@@ -1,19 +1,62 @@
 body {
   font-family: "Source Sans Pro", sans-serif;
-  font-size: 16px;
-  padding: 1em;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-right: 100px;
+  padding-left: 100px;
 }
 
 h1 {
-  font-size: 3em;
-  margin: 0.25em 0;
+  font-size: 64px;
+  font-family: "Monofett", 'Times New Roman', Times, serif;
 }
 
-h3 {
-  font-size: 2em;
-  margin: 0.25em 0;
+h2 {
+  font-size: 48px;
+  font-family: "Monofett", 'Times New Roman', Times, serif;
 }
 
 p {
-  font-size: 1em;
+  font-family: "Kode Mono", 'Times New Roman', Times, serif;
+  font-size: 12px;
+}
+
+.tooltip {
+  position: absolute;
+  padding: 10px;
+  background-color: blue;
+  color: yellow;
+  border-radius: 5px;
+  pointer-events: none;
+  opacity: 0;
+  font-family: "Kode Mono", 'Times New Roman', Times, serif;
+  font-size: 14px;
+}
+
+#container{
+  overflow-x: scroll;
+  background-color: white;
+  border: 40px solid transparent;
+  border-image: url('./art_gallery_frame.jpg') 50 round;
+}
+
+/* scroll bar */
+/* width */
+#container::-webkit-scrollbar {
+  width: auto;
+}
+
+/* Track */
+#container::-webkit-scrollbar-track {
+  background: white;
+}
+
+/* Handle */
+#container::-webkit-scrollbar-thumb {
+  background: whitesmoke;
+}
+
+#caption {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }

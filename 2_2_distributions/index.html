@@ -1,13 +1,27 @@
 <!DOCTYPE html>
   <head>
     <meta charset="utf-8">
-    <title>Interactive Data Visualization Tutorial</title>
+    <title>Artists Lifespans</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro">
     <link rel="stylesheet" href="./style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Monofett&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap" rel="stylesheet">
   </head>
   <body>
-    <h3>Section 2 | Tutorial 2 | Distributions</h3>
-    <div id="container"> </div>
+    <div id="header">
+      <center><h1>Lengths, Widths, and Lifespans at the MoMA</h1></center>
+      <center><h2>Randip Parhar | Tutorial 2.2 | DATA73200 - Spring 2024</h2></center>
+    </div>
+    <center><div id="container"></div></center>
+    <div class="tooltip" id="tooltip"></div>
+    <div id="caption">
+      <p><font color="purple">Purple</font>: Female | <font color="orange">Orange</font>: Male | <font color="green">Green</font>: Unknown or Multiple</p>
+      <p>The size of the circle represents the lifespan of the artist.</p>
+      <p>In the dataset, there were lifespans of 0. There was also a lifespan of 1,947 years! The right thing to do is to clean the data. However, the tutorial did not state to clean the data. It asked us to <em>"Make a design decision to handle the 0 values."</em> What I did was create a copy of the dataset that only had reasonable ages - greater than 0 and less than 200 (okay, 200 may be a little unreasonable, but I wanted to ensure to capture anyone over 100 in the hypothetical case that additional data is added to this dataset). Then, I created an array of those reasonable ages. When styling the circles, if the age was not in the array of reasonable ages, I assigned them a fill of gray, gave it a lighter opacity, and also assigned it a radius of 1.5. Additionally, those circles do not have tooltips. So, they are still a part of the visualization, but aren't as noticeable. I made design decisions that ensured they weren't going to capture the attention of the viewer.</p>
+    </div>
     <script src="../lib/d3.js"></script>
     <script src="main.js"></script>
   </body>

@@ -1,19 +1,62 @@
 body {
   font-family: "Source Sans Pro", sans-serif;
-  font-size: 16px;
-  padding: 1em;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-right: 100px;
+  padding-left: 100px;
 }
 
 h1 {
-  font-size: 3em;
-  margin: 0.25em 0;
+  font-size: 48px;
+  font-family: "Rubik Maps", 'Times New Roman', Times, serif;
 }
 
-h3 {
-  font-size: 2em;
-  margin: 0.25em 0;
+h2 {
+  font-size: 36px;
+  font-family: "Rubik Maps", 'Times New Roman', Times, serif;
 }
 
 p {
-  font-size: 1em;
+  font-size: 16px;
+  font-family: "Gudea", 'Times New Roman', Times, serif;
+}
+
+.tooltip {
+  position: absolute;
+  padding: 10px;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  pointer-events: none;
+  opacity: 0;
+  font-size: 16px;
+  font-family: "Gudea", 'Times New Roman', Times, serif;
+}
+
+#container{
+  overflow-x: scroll;
+  background-color: white;
+  border: 50px solid transparent;
+  border-image: url('./map_border.jpg') 50 round;
+}
+
+#caption {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* scroll bar */
+/* width */
+#container::-webkit-scrollbar {
+  width: auto;
+}
+
+/* Track */
+#container::-webkit-scrollbar-track {
+  background: white;
+}
+
+/* Handle */
+#container::-webkit-scrollbar-thumb {
+  background: whitesmoke;
 }

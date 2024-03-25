@@ -1,13 +1,25 @@
 <!DOCTYPE html>
   <head>
     <meta charset="utf-8">
-    <title>Interactive Data Visualization Tutorial</title>
+    <title>Artwork by Origin</title>
     <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Maps&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gudea:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
   </head>
   <body>
-    <h3>Section 2 | Tutorial 4 | Geographic</h3>
-    <div id="container"> </div>
+    <div id="header">
+      <center><h1>The World's Fair of Artwork - Countries of Origin at the MoMa</h1></center>
+      <center><h2>Randip Parhar | Tutorial 2.4 | DATA73200 - Spring 2024</h2></center>
+    </div>
+    <center><div id="container"> </div></center>
+    <div id="caption">
+      <p>For this tutorial, I cleaned the dataset. For example, there was Italian and Italy. So, I changed Italian to Italy. Another example is that in the csv, it had "The Neatherlands." But the geojson file had "Neatherlands." So, in the csv I changed "The Neatherlands" to "Neatherlands." Tanzania was in the csv file but not in the geojson. So, I added the geojson data for Tanzania so it would display on the map. Stuff like that.</p>
+      <p>Then, I had to address the fact that Italian was showing twice in the data set (56, 3, with a total of 59). Same thing with the USA (5181, 10, with a total of 5191). However, the map was displaying data of a total of 5181 artworks from the USA, not 5191. And 56 for Italy, not 59. I used chatGPT to figure out how to resolve that because I was too lazy to do more manual cleaning.</p>
+      <p>I'm sure there is more I could have cleaned up. Missing geojson for countries that are in the csv. Names in the csv that don't match how they are entered in the geojson.</p>
+    </div>
     <script src="../lib/d3.js"></script>
     <script src="main.js"></script>
   </body>

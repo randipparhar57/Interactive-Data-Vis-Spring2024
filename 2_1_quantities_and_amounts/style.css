@@ -1,19 +1,49 @@
 body {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Limelight", 'Times New Roman', Times, serif;
   font-size: 16px;
-  padding: 1em;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-right: 100px;
+  padding-left: 100px;
 }
 
 h1 {
   font-size: 3em;
   margin: 0.25em 0;
+  color: navy;
 }
 
-h3 {
+h2 {
   font-size: 2em;
   margin: 0.25em 0;
+  color: navy;
 }
 
 p {
   font-size: 1em;
+  color: navy;
+}
+
+#container{
+  overflow-x: scroll;
+  background-color: #feffea;
+  padding-top: 50px;
+  border: 50px solid transparent;
+  border-image: url('./border-picture-frame.jpeg') 50 round;
+}
+
+/* scroll bar */
+/* width */
+#container::-webkit-scrollbar {
+  width: auto;
+}
+
+/* Track */
+#container::-webkit-scrollbar-track {
+  background: #feffea;
+}
+
+/* Handle */
+#container::-webkit-scrollbar-thumb {
+  background: navy;
 }

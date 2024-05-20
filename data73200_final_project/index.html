@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8">
+    <title>moma final project</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <center><h1>Classifications at the MoMA</h1></center>
+    <p id="intro">These visualizations were created using MoMA's artworks dataset. Use the drop-down menu below to select a classification to explore. Please note this is not a complete list of classifications - this is a list of classifications with 100 or more artworks.</p>
+    <center><select id="master_dropdown_menu"></select></center>
+    <div id="definitions"></div>
+    <div id="container">
+      <div id="viz1a_container"></div>
+      <div id="viz2_container"></div>
+      <div id="viz_gallery_container">
+        <div id="photos_class"></div>
+        <div id="image-popup" class="popup-container">
+          <span class="close-btn">&times;</span>
+          <img class="popup-img">
+        </div>
+      </div>
+    </div>
+    <script src="../lib/d3.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>

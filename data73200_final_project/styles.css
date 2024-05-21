@@ -5,7 +5,6 @@ body {
 }
 
 #master_dropdown_menu {
-    /*border: solid yellowgreen 5px;*/
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
     font-weight: bold;
@@ -21,7 +20,6 @@ body {
 }
 
 #definitions {
-    /*border: solid purple 5px;*/
     margin: 25px;
     font-size: 20px;
     text-align: center;
@@ -43,13 +41,11 @@ body {
 }
 
 #viz1a_container{
-    /*border: solid pink 5px;*/
     padding: auto;
     margin: 50px;
 }
 
 #viz2_container{
-    /*border: solid green 5px;*/
     border: 50px solid transparent;
     border-image: url('./assets/art_gallery_frame.jpg') 50 round;
     padding: 50px;
@@ -72,7 +68,6 @@ body {
 
 /* PHOTO GALLERY */
 #viz_gallery_container {
-    /*border: solid blue 5px;*/
     margin-top: 100px;
     margin-left: 50px;
     margin-right: 50px;

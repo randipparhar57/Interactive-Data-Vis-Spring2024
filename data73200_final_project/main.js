@@ -66,12 +66,6 @@ d3.csv('./project_data/Artworks_copy1.csv', d3.autoType)
     //save counts by class to application state. this is for the bar chart (viz1).
     state.countsByClass = state.data.reduce((acc, curr) => {
       const classification= curr.Classification;
-      /*// increment count for "All"
-      if(!acc["All"]) {
-        acc["All"] = 0;
-      }
-      acc["All"]++;*/
-
       // increment count for each classification
       if(!acc[classification]){
         acc[classification]=0
